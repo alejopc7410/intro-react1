@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(100% - 30px, 1000px);
+    margin-inline: auto;
+}
+
+main {
+    padding: 60px 0;
+    height: 100svh;
+    display: grid;
+    place-items: center;
+
+    div {
+        text-align: center;
+    }
+}
+
+h1, h2, p, li, a, input {
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1;
+
+    span {
+        color: #00f3b6;
+    }
+}
+
+.input {
+    width: 200px;
+    height: 44px;
+    margin-top: 40px;
+    padding: 0 10px;
+    border: 1px solid rgb(255 255 255 / 5%);
+    background-color: rgb(255 255 255 / 5%);
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 1em;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 1.8em;
+}
